@@ -59,3 +59,9 @@ font-size: 11px;
 letter-spacing: 0.1em;
 color: #a6a6a6;
 }
+@media (max-width: 480px) {
+header {
+margin-top: -34.5px;
+margin-left: -150px;
+}
+}
