@@ -13,13 +13,21 @@
 <body>
 
 <div class="container">
-<header>
-<a href="http://www.juan-jose.co/" class="title">juan jose perez</a>
-<p>... currently undergoing updates & renovations / <a href="mailto:jjperez85@gmail.com" target="_blank" class="contact">email me</a></p>
-</header>
+<h1>juanjo perez</h1>
+<p>Front end developer</p>
+<p>Coming soon (I promise)</p>
+<a href="mailto:jjperez85@gmail.com" target="_blank" class="contact">email me</a>
 </div>
 
-<footer>&copy; 2014 juan jose perez</footer>
+<footer>&copy; <span class="year"></span></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+var currentYear = new Date().getFullYear();
+$('.year').html(currentYear);
+});
+</script>
 
 </body>
 </html>

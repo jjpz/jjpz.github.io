@@ -4,60 +4,54 @@ font-family: sans-serif; /* 1 */
 -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
+font-family: monospace;
+color: #000;
 margin: 0;
-font: 13px/1.6 "Times New Roman",times,serif;
 }
 .container {
-}
-header {
 position: absolute;
 top: 50%;
-left: 50%;
-margin-top: -10.5px;
-margin-left: -67.5px;
-max-width: 300px;
+left: 0;
+right: 0;
+padding: 0 15px;
+margin: -60px auto 0;
+text-align: center;
 }
-a.title {
-font-size: 18px;
-color: #333;
-font-style: italic;
-font-weight: 100;
-text-decoration: none;
-letter-spacing: 0.1em;
-transition: color 500ms ease 0s;
-}
-a.title:hover {
-color: #a6a6a6;
-}
-a.contact {
-font-family: "Arial";
-font-size: 11px;
-color: #333;
-font-weight: 100;
-text-decoration: none;
-transition: color 500ms ease 0s;
-}
-a.contact:hover {
-color: #a6a6a6;
+h1 {
+font-size: 24px;
+font-weight: 700;
+margin: 10px 0;
 }
 p {
-margin: 5px 0 0 0;
-font-family: "Arial";
-font-size: 11px;
-color: #a6a6a6;
+margin: 0 0 10px 0;
+font-family: arial;
+font-size: 12px;
+color: #333;
 font-weight: 100;
-letter-spacing: .4em;
-
+letter-spacing: 1px;
+}
+a.contact {
+font-family: monospace;
+font-size: 12px;
+color: #333;
+font-weight: 700;
+text-decoration: underline;
+letter-spacing: 1px;
+}
+a.contact:hover {
+text-decoration: none;
 }
 footer {
 position: fixed;
 bottom: 0;
+left: 0;
 right: 0;
 margin: 10px 15px;
-font-family: "Arial";
+font-family: arial;
 font-size: 11px;
 letter-spacing: 0.1em;
 color: #a6a6a6;
+text-align: center;
 }
 @media (max-width: 768px) {
 header {
