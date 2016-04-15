@@ -67,6 +67,10 @@ transition: all .25s;
 -moz-transition: all .25s;
 -ms-transition: all .25s;
 }
+p.skills span {
+font-family: monospace;
+font-weight: bold;
+}
 p.contact {
 margin: 15px 0;
 }
@@ -96,10 +100,6 @@ p.recent-project a:hover {
 color: #FA4616;
 padding-bottom: 3px;
 border-bottom: 3px solid #0021A5;
-}
-p.skills span {
-font-family: monospace;
-font-weight: bold;
 }
 /*span.blue {
 font-family: monospace;
