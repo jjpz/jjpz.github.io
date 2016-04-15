@@ -53,6 +53,20 @@ color: #333;
 font-weight: bold;
 letter-spacing: 1px;
 }
+p.company a:hover span.blue {
+color: #0021A5;
+transition: all .25s;
+-webkit-transition: all .25s;
+-moz-transition: all .25s;
+-ms-transition: all .25s;
+}
+p.company a:hover span.orange {
+color: #FA4616;
+transition: all .25s;
+-webkit-transition: all .25s;
+-moz-transition: all .25s;
+-ms-transition: all .25s;
+}
 p.contact {
 margin: 15px 0;
 }
@@ -63,7 +77,7 @@ color: #fff;
 font-weight: bold;
 letter-spacing: 1px;
 background-color: #0021A5;
-padding: 5px 15px;
+padding: 5px 15px 6px 16px;
 }
 a.email:hover {
 background-color: #FA4616;
