@@ -26,6 +26,9 @@ font-size: 24px;
 font-weight: bold;
 margin: 10px 0;
 }
+ul {
+list-style-type:none;
+}
 p {
 margin: 0 0 10px 0;
 font-family: 'Noto Sans', sans-serif;
@@ -73,21 +76,33 @@ font-weight: bold;
 }
 p.contact {
 margin: 15px 0;
+line-height:25px;
 }
 a.email {
+display:inline-block;
+width:100px;
+height:25px;
+line-height:25px;
 font-family: monospace;
 font-size: 12px;
 color: #fff;
 font-weight: bold;
 letter-spacing: 1px;
 background-color: #0021A5;
-padding: 5px 15px 6px 16px;
+padding:0;
 }
 a.email:hover {
 background-color: #FA4616;
 color: #0021A5;
 }
-p.recent-project a {
+.projects {
+margin:0 0 10px 0;
+padding:0;
+}
+.projects li {
+margin-bottom:5px;
+}
+.projects a {
 font-family: monospace;
 font-size: 12px;
 color: #333;
@@ -96,7 +111,7 @@ letter-spacing: 1px;
 padding-bottom: 3px;
 border-bottom: 3px solid transparent;
 }
-p.recent-project a:hover {
+.projects a:hover {
 color: #FA4616;
 padding-bottom: 3px;
 border-bottom: 3px solid #0021A5;
