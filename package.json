@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "My personal website",
   "devDependencies": {
-    "tailwindcss": "^3.0.22",
+    "@tailwindcss/cli": "^4.1.13",
+    "@tailwindcss/vite": "^4.1.13",
+    "tailwindcss": "^4.1.13",
     "vite": "^7.1.7"
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm run tw/build && vite build",
-    "preview": "vite preview",
-    "tw/watch": "tailwindcss -i src/css/style.css -o src/css/index.css --watch",
-    "tw/build": "tailwindcss -i src/css/style.css -o src/css/index.css --minify"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/jjpz/jjpz.github.io/issues"
   },
-  "homepage": "https://github.com/jjpz/jjpz.github.io#readme"
+  "homepage": "https://github.com/jjpz/jjpz.github.io#readme",
+  "type": "module"
 }
