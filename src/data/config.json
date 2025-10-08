@@ -1,0 +1,25 @@
+{
+    "socialLinks": [
+        {
+            "href": "/",
+            "text": "jjpz.github.io"
+        },
+        {
+            "href": "https://linkedin.com/in/juanjose-perez",
+            "text": "linkedin.com/in/juanjose-perez"
+        },
+        {
+            "href": "https://github.com/jjpz",
+            "text": "github.com/jjpz"
+        }
+    ],
+    "about": {
+        "greeting": "Hi! I'm Juan (aka JJ, aka Prince) =)",
+        "bio": "I'm a front-end developer with 10+ years of experience crafting user-friendly web experiences for arts & culture, nonprofit, and corporate organizations. Skilled in HTML, CSS, JavaScript, PHP, and tools like Git, Laravel, Tailwind, Alpine, and WordPress. I'm a collaborative problem-solver who approaches complex challenges thoughtfully, turning them into structured, meaningful solutions that balance user needs with business goals.",
+        "currentFocus": "Always learning and growing, I'm currently expanding into React and Node.js to broaden my full-stack skills. I'm positive, adaptable, and supportive — ready to bring good vibes and solid experience to a new team!"
+    },
+    "contact": {
+        "email": "jjperez85@gmail.com",
+        "buttonText": "Email me!"
+    }
+}

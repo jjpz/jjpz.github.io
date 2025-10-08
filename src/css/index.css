@@ -105,6 +105,13 @@ svg:has(+ .button:hover),
 	display: inline-block;
 }
 
+@media (prefers-reduced-motion: reduce) {
+	.animation-wave,
+	#contact svg {
+		animation: none;
+	}
+}
+
 @keyframes wave-animation {
 	0% {
 		transform: rotate(0deg);
