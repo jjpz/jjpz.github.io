@@ -17,5 +17,5 @@ export function ExperienceList(experience) {
                 <span>${job.start_date} - ${job.end_date}</span>
             </div>
         </article>
-    `).join('');
+    `).join('').trim();
 }

@@ -11,5 +11,5 @@ export function ProjectList(projects) {
                 children: ArrowIcon()
             })}
         </li>
-    `).join('');
+    `).join('').trim();
 }

@@ -6,5 +6,5 @@ export function SocialLinksList(socialLinks) {
         ? '<span class="hidden md:inline-block text-main"> | </span>'
         : '';
         return ExternalLink(link) + separator;
-    }).join('');
+    }).join('').trim();
 }
